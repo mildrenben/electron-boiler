@@ -2,7 +2,7 @@
 
 A quick boiler I threw together for Electron projects.
 
-Uses Electron, React, React Router 4 and Styled Components.
+Uses Electron, React, React Router 4, Styled Components, and React Desktop.
 
 ## Requirements
 
