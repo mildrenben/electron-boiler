@@ -11,7 +11,7 @@
     var bundlePath = './bundle/renderer.bundle.js';
 
     if(typeof process !== 'undefined' && process.env.NODE_ENV === 'DEV') {
-      const port = process.env.PORT || 8080;
+      const port = process.env.PORT || 8000;
       bundlePath = `http://127.0.0.1:${port}/bundle/renderer.bundle.js`;
       var bundleScriptEl = document.createElement('script');
       bundleScriptEl.src = bundlePath;

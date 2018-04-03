@@ -2,13 +2,14 @@ import React from 'react'
 import { BrowserRouter, Route, Link, Redirect } from 'react-router-dom'
 import Home from './screens/Home'
 import Contact from './screens/Contact'
+import { hot } from 'react-hot-loader'
 
 const Routes = () => (
   <BrowserRouter>
     <div>
      { window.location.pathname.includes('index.html') && <Redirect to='/' /> }
       <header>
-        header
+        header1
         <Link to='/'>Home</Link>
         <Link to='/contact'>Contact</Link>
       </header>
@@ -20,4 +21,4 @@ const Routes = () => (
   </BrowserRouter>
 )
 
-export default Routes
+export default hot(module)(Routes)

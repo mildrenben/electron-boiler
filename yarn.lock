@@ -1356,9 +1356,9 @@ electron-to-chromium@^1.3.30:
   version "1.3.34"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.34.tgz#d93498f40391bb0c16a603d8241b9951404157ed"
 
-electron@1.8.2:
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-1.8.2.tgz#a817cd733c2972b3c7cc4f777caf6e424b88014d"
+electron@1.8.3:
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-1.8.3.tgz#001416ea3a25ce594e317cb5531bc41eadd22f7f"
   dependencies:
     "@types/node" "^8.0.24"
     electron-download "^3.0.1"
@@ -1624,6 +1624,10 @@ fast-deep-equal@^1.0.0:
 fast-json-stable-stringify@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz#d5142c0caee6b1189f87d3a76111064f86c8bbf2"
+
+fast-levenshtein@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
 
 fbjs@^0.8.16, fbjs@^0.8.5, fbjs@^0.8.9:
   version "0.8.16"
@@ -1958,7 +1962,7 @@ hoist-non-react-statics@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-1.2.0.tgz#aa448cf0986d55cc40773b17174b7dd066cb7cfb"
 
-hoist-non-react-statics@^2.3.0:
+hoist-non-react-statics@^2.3.0, hoist-non-react-statics@^2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-2.5.0.tgz#d2ca2dfc19c5a91c5a6615ce8e564ef0347e2a40"
 
@@ -2895,6 +2899,14 @@ prop-types@^15.5.4, prop-types@^15.5.8, prop-types@^15.6.0:
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
 
+prop-types@^15.6.1:
+  version "15.6.1"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.1.tgz#36644453564255ddda391191fb3a125cbdf654ca"
+  dependencies:
+    fbjs "^0.8.16"
+    loose-envify "^1.3.1"
+    object-assign "^4.1.1"
+
 proxy-addr@~2.0.2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/proxy-addr/-/proxy-addr-2.0.3.tgz#355f262505a621646b3130a728eb647e22055341"
@@ -3013,6 +3025,16 @@ react-dom@16.2.0:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.0"
+
+react-hot-loader@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.0.1.tgz#48284350ae5d7ba07dac872bd5bbc6e477352593"
+  dependencies:
+    fast-levenshtein "^2.0.6"
+    global "^4.3.0"
+    hoist-non-react-statics "^2.5.0"
+    prop-types "^15.6.1"
+    shallowequal "^1.0.2"
 
 react-proxy@^1.1.7:
   version "1.1.8"
@@ -3352,6 +3374,10 @@ sha.js@^2.4.0, sha.js@^2.4.8:
   dependencies:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
+
+shallowequal@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/shallowequal/-/shallowequal-1.0.2.tgz#1561dbdefb8c01408100319085764da3fcf83f8f"
 
 shebang-command@^1.2.0:
   version "1.2.0"
